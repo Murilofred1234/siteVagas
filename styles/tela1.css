@@ -1,0 +1,246 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--cinza-letra)  
+}
+
+.nav__header{
+    margin-right: 20rem;
+    
+}
+
+.nav__texto{
+    padding: 2rem;
+      
+}
+
+.nav__botao{
+    padding: 2rem;
+}
+
+.nav__botao2{
+    background-color: var(--vinho-cor);
+    padding: 10px;
+    border-radius: 11px;
+    color: var(--branco-fundo);
+    
+}
+
+.nav__botoes{
+    padding: 0.8rem 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 5rem;
+    gap: 3rem;
+}
+
+.texto{
+    max-width: 50rem;
+    font-size: 20px;
+}
+
+.texto-red{
+    color: var(--vinho-cor);
+    font-weight: 600;
+}
+
+.h1{
+    font-size: 48px;
+    color: var(--azul-cor);
+    font-weight: 600;
+}
+
+.container__textos{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em;
+    text-align: left;
+}
+
+.container__propagandas__h1{
+    color: var(--vinho-cor);
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.texto-propaganda{
+    color: var(--azul-cor);
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+}
+
+.container__progaganda{
+    max-width: 18rem;
+}
+
+.amigos{
+    width: 100%;
+    height: auto;
+}
+
+.texto-vagas{
+    background-color: var(--cor-fundo-botao);
+    border-radius: 16px;
+    padding: 12px;  
+    font-size: 14px;
+}
+
+.texto-procurando{
+    font-size: 36px;
+}
+
+.texto-abaixo{
+    font-size: 20px;
+}
+
+.container_b{
+    margin-top: 15rem ;
+}
+
+.container_vagas{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 25rem;
+    
+}
+
+.tema-vaga-texto{
+    color: var(--azul-cor);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3rem;
+    text-align: left;
+}
+
+.vaga{
+    border: 1px solid var(--cor-linha);
+    padding: 24px;
+    border-radius: 16px;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.titulo-vaga{
+    color: var(--azul-cor);
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.informacoes span{
+    margin-right: 2rem;
+}
+
+.container__comentario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 20rem;
+    background-color: var(--vinho-background);
+    padding: 5rem 5rem 0.5rem 5rem;
+    border-radius: 16px;
+    
+}
+
+.texto-comentario{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2rem 0;
+}
+
+
+.texto-procurando{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--azul-cor);
+    margin: 1.5rem 0;
+}
+
+.imagem{
+    margin-bottom: 1rem;
+}
+
+.texto-perfil{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--azul-cor);
+}
+
+.texto-perfil-abaixo{
+    margin: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0 0 0;
+    background-color: var(--cor-footer);
+    height: 100%;
+}
+
+.textao-footer{
+    margin: 2rem;
+}
+
+.texto-footer{
+    margin-bottom: 2rem;
+}
+
+.footer_div{
+    margin-bottom: 2rem;
+}
+
+.input{
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--cor-linha);
+    font-family: 'Inter';
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.footer-button{
+    padding: 0.7rem 1.3rem; ;
+}
+
+.footer-direitos{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-letrinhas);
+    margin-bottom: 3rem;
+}
+
+
+.vaga:hover {
+    background-color: var(--vinho-background);
+    color: var(--vinho-cor);
+    border: 2px solid var(--vinho-cor);
+    font-size: 22px;
+    padding: 30px; /* Aumenta o padding */
+    margin-left: 0.1rem; /* Ajusta o margin */
+    margin-bottom: 0.1rem; 
+
+}
+
+.vaga:hover .titulo-vaga {
+    color: var(--vinho-cor); 
+    font-size: 22px;
+}
+
+.vaga:hover .container_vagas{
+    
